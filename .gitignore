@@ -1,0 +1,7 @@
+# .gitignore 内容示例
+data/processed/*.csv
+__pycache__/
+*.pyc
+*.log
+*.yaml
+src\youtube_csv_process.py

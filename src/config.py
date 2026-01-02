@@ -1,0 +1,24 @@
+# 数据路径
+RAW_DATA_PATH = "data/raw"
+CLEAN_DATA_PATH = "data/processed"
+FIG_OUTPUT_PATH = "output/figures"
+TABLE_OUTPUT_PATH = "output/tables"
+
+# TF-IDF
+TFIDF_MAX_FEATURES = 3000
+TFIDF_MIN_DF = 5
+TFIDF_MAX_DF = 0.8
+
+# LDA
+NUM_TOPICS = 10
+LDA_PASSES = 10
+
+# 聚类
+NUM_CLUSTERS = 10
+
+# 词云
+FONT_PATH = "C:/Windows/Fonts/MSYH.TTC"
+
+# 主题关键词
+TOPIC_KEYWORDS_PER_CLUSTER = 10
+LDA_TOPIC_TOP_WORDS = 20
